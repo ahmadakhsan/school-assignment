@@ -1,4 +1,4 @@
 # TestingRepo
 Deskripsi Repo
-![alt text](http://github.com/sandev08/TestingRepo/blob/master/android.png)
+![alt text](https://github.com/sandev08/TestingRepo/blob/master/android.png)
 
