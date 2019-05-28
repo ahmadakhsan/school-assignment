@@ -27,7 +27,9 @@
         <activity android:name=".modul3.DetailEvaluasi3Activity" />
         <activity android:name=".modul3.EditEvaluasi3Activity" />
         <activity android:name=".modul5.Soal1Activity" />
-        <activity android:name=".modul5.Soal2Activity"></activity>
+        <activity android:name=".modul5.Soal2Activity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".TerbaruActivity"></activity>
     </application>
 
 </manifest>
