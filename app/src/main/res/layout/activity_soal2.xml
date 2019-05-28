@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".modul2.soal2.Soal2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sebutkan Ibu Kota Provinsi Sulawesi Tenggara ?"
+        android:textColor="#1a1717"
+        android:textSize="14sp" />
+
+
+    <RadioGroup
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/samarinda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Samarinda" />
+
+
+        <RadioButton
+            android:id="@+id/kendari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kendari" />
+
+        <RadioButton
+            android:id="@+id/palu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Palu" />
+
+        <RadioButton
+            android:id="@+id/makassar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Makassar" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/simpan1"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:text="Simpan"
+        android:background="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:id="@+id/hasil2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

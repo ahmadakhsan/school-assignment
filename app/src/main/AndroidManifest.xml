@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bayucantik.com.modulmp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".modul1.Evaluasi1Activity" />
+        <activity android:name=".modul2.Evaluasi2Activity" />
+        <activity android:name=".modul3.Evaluasi3Activity" />
+        <activity android:name=".modul4.Evaluasi4Activity" />
+        <activity android:name=".modul5.Evaluasi5Activity" />
+        <activity android:name=".modul2.soal1.Soal1Activity" />
+        <activity android:name=".modul2.soal2.Soal2Activity" />
+        <activity android:name=".modul2.soal3.Soal3Activity" />
+        <activity android:name=".modul3.DetailEvaluasi3Activity" />
+        <activity android:name=".modul3.EditEvaluasi3Activity" />
+        <activity android:name=".modul5.Soal1Activity" />
+        <activity android:name=".modul5.Soal2Activity"></activity>
+    </application>
+
+</manifest>
